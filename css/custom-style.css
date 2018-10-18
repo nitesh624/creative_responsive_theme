@@ -622,3 +622,11 @@ ul.links.inline li{
   padding: 12px;
   margin-top: -25px;
 }
+
+
+/*main slider front page*/
+.views-field-field-slider-image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
