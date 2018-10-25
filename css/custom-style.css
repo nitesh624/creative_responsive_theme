@@ -359,6 +359,8 @@ input[type="submit"]:hover{
   background: #FBFBFB;
   color: #999;
   font-weight: bold;
+  padding: 10px;
+  font-size: 0.9rem;
 }
 
 .main-menu {
