@@ -62,9 +62,8 @@ ul.links.inline li{
 
 .main-header{
   background: url(../images/bg-header.jpg);
-  position: relative;
   border-bottom: 1px solid #EBEBEB;
-  position: relative;
+  /*position: relative;*/
   -webkit-box-shadow: -1px 2px 18px #021736;
   -moz-box-shadow: -1px 2px 18px rgb(2, 23, 54);
   box-shadow: -1px 2px 18px #021736;
@@ -96,13 +95,13 @@ ul.links.inline li{
   z-index: 2;
 }
 
-#navbar {
+#main-header {
   -webkit-transition: all 0.5s;
      -moz-transition: all 0.5s;
      -o-transition: all 0.5s;
     transition: all 0.5s;
   }
-  
+
   #main-header.is-hidden {
     -webkit-transform: translateY(-100%);
         -ms-transform: translateY(-100%);
