@@ -32,7 +32,8 @@
 
   .region-primary-menu,
   .menu-base-theme li a{
-    background: #181F25;
+   /* background: #181F25;*/
+    background: transparent;
   }
 
   .slideshow{
