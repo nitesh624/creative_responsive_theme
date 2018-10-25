@@ -96,7 +96,13 @@ ul.links.inline li{
   z-index: 2;
 }
 
-
+#navbar {
+  -webkit-transition: all 0.5s;
+     -moz-transition: all 0.5s;
+     -o-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  
   #main-header.is-hidden {
     -webkit-transform: translateY(-100%);
         -ms-transform: translateY(-100%);
