@@ -398,6 +398,7 @@ body .lh_20{
 }
 .footerwidget ul.menu li a{
   color: #8A8A8A;
+  text-decoration: none;
   -webkit-transition: all 0.5s;
    -moz-transition: all 0.5s;
    -o-transition: all 0.5s;
@@ -429,7 +430,7 @@ body .lh_20{
 .footerwidget h2,
 .footerwidget .h2{
   color: #01122bc2;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 
