@@ -343,10 +343,6 @@ input[type="submit"]:hover{
   margin: 5px;
 }
 
-nav h2{
-  display: none;
-}
-
 .menu-base-theme,
 .menu-base-theme a{
   background: none;
