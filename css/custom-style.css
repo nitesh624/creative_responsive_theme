@@ -56,6 +56,9 @@ ul.links.inline li{
   margin-bottom: 20px;
 }
 
+#page-container{
+  padding-top: 6em;
+}
 /*.container {
   max-width: 1000px;
 }*/
