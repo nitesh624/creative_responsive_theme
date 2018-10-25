@@ -96,6 +96,12 @@ ul.links.inline li{
   z-index: 2;
 }
 
+
+  #main-header.is-hidden {
+    -webkit-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
 /*region header*/
 
 .site-branding{
