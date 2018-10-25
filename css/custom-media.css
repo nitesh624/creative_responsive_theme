@@ -21,6 +21,10 @@
     color: #FFF;
     text-decoration: none;
     background: url(../images/li-hover.png) center;
+     -webkit-transition: all 0.5s;
+     -moz-transition: all 0.5s;
+     -o-transition: all 0.5s;
+    transition: all 0.5s;
   }
 
   .region-primary-menu{
