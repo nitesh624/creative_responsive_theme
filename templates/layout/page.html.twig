@@ -96,7 +96,7 @@
     </div>
 
     <div class="row">
-      <div class="navbar-header col-md-12">
+      <div class="navbar-header col-md-9">
         <nav class="navbar navbar-default" role="navigation">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navigation">
             <span class="sr-only">Toggle navigation</span>
@@ -109,6 +109,11 @@
             {{ page.primary_menu }}
           {% endif %}
         </nav>
+      </div>
+      <div class="col-md-3">
+          {% if page.header_search %}
+            {{ page.header_search }}
+          {% endif %}
       </div>
     </div>
   </div>

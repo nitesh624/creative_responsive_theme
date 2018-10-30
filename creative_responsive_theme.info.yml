@@ -14,6 +14,7 @@ libraries:
 regions:
   header: 'Header'
   primary_menu: 'Primary Menu'
+  header_search: 'Header search'
   slideshow: 'Slideshow'  
   topwidget_first: 'Top First Widget'
   topwidget_second: 'Top Second Widget'
