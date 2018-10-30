@@ -533,7 +533,7 @@ body .lh_20{
 /*FORM*/
 
 input, button, select, textarea{
-  padding: 9px;
+  padding: 3px;
   border: 1px solid #C7C7C7;
 }
 
