@@ -337,6 +337,7 @@ body .lh_20{
 .js input.form-autocomplete{
   border-radius: 5px;
   background-image: url(../images/search.png);
+  background-position: 98% center;
 }
 
 /*Banner*/
