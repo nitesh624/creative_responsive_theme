@@ -60,16 +60,19 @@
 
 {% macro content(items, settings, field_item_wrapper_attributes, content_attributes) %}
   {% for item in items %}
+    
     {% if settings.fi %}
+      
       {% if settings['fi-def-at'] %}
         <{{ settings['fi-el'] }} {{ field_item_wrapper_attributes.mergeAttributes(item.attributes) }} >
       {% else %}
         <{{ settings['fi-el'] }} {{ field_item_wrapper_attributes }} >
       {% endif %}
-          {{- item.content -}}
+          <a href="https://www.rcsb.org/structure/{{ item.content }}">{{- item.content -}}</a>
         </{{ settings['fi-el'] }}>
     {% else %}
-      {{ item.content }}
+     <a href="https://www.rcsb.org/structure/{{ item.content }}">{{ item.content }}</a>
     {% endif %}
+
   {% endfor %}
 {% endmacro %}
