@@ -63,36 +63,18 @@
 <header class="main-header navbar-fixed-top" id="main-header">
   <div class="container">
     <div class="row">
-      <div class="col-sm-4 col-md-3">
+      <div class="col-md-8">
         {% if page.header %}
           {{ page.header }}
         {% endif %}
       </div>
+      <div class="col-md-4">
+          {% if page.header_search %}
+            {{ page.header_search }}
+          {% endif %}
+      </div>
 
-      {% if show_social_icon %}
-        <div class="col-sm-8 col-md-9">
-          <div class="social-media">
-            {% if facebook_url %}
-              <a href="{{ facebook_url }}"  class="facebook" target="_blank" ><i class="fa fa-facebook"></i></a>
-            {% endif %}
-            {% if google_plus_url %}
-              <a href="{{ google_plus_url }}"  class="google-plus" target="_blank" ><i class="fa fa-google-plus"></i></a>
-            {% endif %}
-            {% if twitter_url %}
-              <a href="{{ twitter_url }}" class="twitter" target="_blank" ><i class="fa fa-twitter"></i></a>
-            {% endif %}
-            {% if linkedin_url %}
-              <a href="{{ linkedin_url }}" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
-            {% endif %}
-            {% if pinterest_url %}
-              <a href="{{ pinterest_url }}" class="pinterest" target="_blank" ><i class="fa fa-pinterest"></i></a>
-            {% endif %}
-            {% if rss_url %}
-              <a href="{{ rss_url }}" class="rss" target="_blank" ><i class="fa fa-rss"></i></a>
-            {% endif %}
-          </div>
-        </div>
-      {% endif %}
+
     </div>
 
     <div class="row">
@@ -110,11 +92,7 @@
           {% endif %}
         </nav>
       </div>
-      <div class="col-md-3">
-          {% if page.header_search %}
-            {{ page.header_search }}
-          {% endif %}
-      </div>
+
     </div>
   </div>
 </header>
@@ -338,16 +316,41 @@
             {% endif %}
           </div>
           <!-- End Copyright -->
-
-          <!-- Credit link -->
-          {% if show_credit_link %}
+          {% if show_social_icon %}
             <div class="col-sm-6 col-md-6">
-              <p class="credit-link">Designed by <a href="http://www.zymphonies.in" target="_blank">Zymphonies</a></p>
+              <div class="social-media">
+                {% if facebook_url %}
+                  <a href="{{ facebook_url }}"  class="facebook" target="_blank" ><i class="fa fa-facebook"></i></a>
+                {% endif %}
+                {% if google_plus_url %}
+                  <a href="{{ google_plus_url }}"  class="google-plus" target="_blank" ><i class="fa fa-google-plus"></i></a>
+                {% endif %}
+                {% if twitter_url %}
+                  <a href="{{ twitter_url }}" class="twitter" target="_blank" ><i class="fa fa-twitter"></i></a>
+                {% endif %}
+                {% if linkedin_url %}
+                  <a href="{{ linkedin_url }}" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
+                {% endif %}
+                {% if pinterest_url %}
+                  <a href="{{ pinterest_url }}" class="pinterest" target="_blank" ><i class="fa fa-pinterest"></i></a>
+                {% endif %}
+                {% if rss_url %}
+                  <a href="{{ rss_url }}" class="rss" target="_blank" ><i class="fa fa-rss"></i></a>
+                {% endif %}
+              </div>
             </div>
           {% endif %}
-          <!-- End Credit link -->
-                
+           
         </div>
+          <!-- Credit link -->
+          {% if show_credit_link %}
+          <div class="row">
+            <div class="col-md-12">
+              <p>Designed by <a href="http://www.zymphonies.in" target="_blank">Zymphonies</a></p>
+            </div>
+          </div>
+          {% endif %}
+          <!-- End Credit link -->
       </div>
     </div>
     {% endif %}
