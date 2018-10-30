@@ -576,7 +576,7 @@ input[type="submit"]:hover{
 /*MENU*/
 
 .main-menuwrap{
-  margin-bottom: 10px;
+  margin-bottom: 2em;
 }
 
 .navbar-default .navbar-toggle{
