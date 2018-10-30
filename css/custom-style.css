@@ -313,6 +313,9 @@ body .lh_20{
             transform: translateY(-100%);
            
   }
+
+  .navbar-fixed-top {
+    z-index: 900;
 /*region header*/
 
 .site-branding{
