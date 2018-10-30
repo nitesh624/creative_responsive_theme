@@ -317,6 +317,10 @@ body .lh_20{
   .navbar-fixed-top {
     z-index: 999;
   }
+
+  .search-api-autocomplete-search .ui-menu-item:hover {
+    background: transparent;
+}
 /*region header*/
 
 .site-branding{
