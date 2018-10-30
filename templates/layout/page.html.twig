@@ -166,8 +166,11 @@
       {% endif %}
     {% endif %}
     <!--End Top Widget -->
-
-
+    {% if page.breadcrumb %}
+      <div class="row">
+        <div class="col-md-12">{{ page.breadcrumb }}</div>
+      </div>
+    {% endif %}
     <!-- Page Title -->
     {%  if page.page_title and not is_front %}
       <div id="page-title">
@@ -179,7 +182,7 @@
         </div>
       </div>
     {% endif %}
-    <!-- End Page Title ---- >
+    <!-- End Page Title -- >
 
 
     <!-- layout -->
@@ -196,9 +199,7 @@
         <!--End Content top-->
         
         <!--start:content -->
-        <div class="row">
-          <div class="col-md-12">{{ page.breadcrumb }}</div>
-        </div>
+
 
         <div class="row layout">
           <!--- Start Left SideBar -->
