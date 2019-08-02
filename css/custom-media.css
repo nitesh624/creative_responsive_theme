@@ -63,7 +63,7 @@
     top: 20px;
     margin-top: 0;
     bottom: 2px;
-    right: 8px;
+    right: 0;
     margin-left: -5px;
     left: auto;
     width: 0;
@@ -78,8 +78,8 @@
     border: 1px solid #a8a8a8;
     padding: 0;
     background-color: #fff;
-    background: rgba(255, 255, 255, 0.74);
-  }
+/*    background: rgba(255, 255, 255, 0.74);
+*/  }
 
   .menu-base-theme ul.has-submenu li {
     border-bottom: 1px solid #fff;
@@ -99,7 +99,7 @@
   }
 
   .footerwidget{
-    padding: 20px 0;
+    padding: 0px;
   }
 
   .credit-link{
